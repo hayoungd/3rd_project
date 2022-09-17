@@ -32,6 +32,7 @@ html,body {
     border: 2px solid green;
     width:800px;
     height:600px;
+    background: #000;
 
     /*left:100px;
     right:100px;*/
@@ -62,3 +63,4 @@ button{
 .next-button{
     float:right;
     }
+

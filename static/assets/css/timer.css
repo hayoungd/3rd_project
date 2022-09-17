@@ -3,6 +3,7 @@ body {
   display: grid;
   height: 100vh;
   place-items: center;
+
 }
 
 .base-timer {
@@ -12,10 +13,12 @@ body {
   left: 1700px;
   right: 1700px;
   top: 300px;
+  margin:0px 0px 0px -60px;
 }
 
 .base-timer__svg {
   transform: scaleX(-1);
+
 }
 
 .base-timer__circle {

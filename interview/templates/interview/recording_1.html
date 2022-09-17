@@ -183,7 +183,7 @@
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-    margin: 20px;
+    margin: 3px;
     height: 55px;
     text-align:center;
     border: none;
@@ -212,7 +212,23 @@
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
+#title {
 
+    text-align:center;
+    padding:0px;
+    width:780px;
+    height:60px;
+    margin:20px 20px 20px 10px;
+}
+ @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  * {
+  font-family: 'GmarketSansMedium';
+}
 
     </style>
 <!--<script>-->
@@ -236,7 +252,7 @@
 
 <!--</script>-->
 </head>
-<body>
+<body style="background-color:#EADFF2">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION
 /////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -278,7 +294,7 @@
                     <button class="record-button" onclick="startTimer();">면접시작!</button>
                     <button class="stop-button" onclick="stopTimer();">면접완료!</button>
                     <button class="next-button" onclick="location.href='../../interview/recording_2/'; ">NEXT</button>
-                    <button class="play-button">SEND</button>
+                    <!--<button class="play-button">SEND</button>-->
                     <!--<button class="test-button">test</button>-->
         <!--            <p>{{ a }}</p>-->
                     <!--<a class="download-button" download>영상다운로드</a>-->
